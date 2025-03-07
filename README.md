@@ -38,8 +38,7 @@ URL: https://bang.anujsubedi.com.np/?q=%s
 6. Click on three dots on the right side of the search engine you just added and click on `make default`.
 7. Done.
 
-Close the settings tab and try searching for `!yt adele set fire to the rain`. It should redirect you to the YouTube search results for "adele set fire to the rain". All [DuckDuckGo bangs](https://duckduckgo
-.com/bangs) should work.
+Close the settings tab and try searching for `!yt adele set fire to the rain`. It should redirect you to the YouTube search results for "adele set fire to the rain". All [DuckDuckGo bangs](https://duckduckgo.com/bangs) should work.
 
 ### Firefox
 
