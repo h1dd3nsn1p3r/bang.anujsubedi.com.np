@@ -1,31 +1,7 @@
 /**
- * Bangs added by me.
- */
-const customBangs = [
-	{
-		c: "AI",
-		d: "www.grok.com",
-		r: 0,
-		s: "Grok",
-		sc: "Grok",
-		t: "aig",
-		u: "https://grok.com/?q={{{s}}}",
-	},
-	{
-		c: "AI",
-		d: "www.chatgpt.com",
-		r: 0,
-		s: "ChatGPT",
-		sc: "ChatGPT",
-		t: "aic",
-		u: "https://chatgpt.com/?q={{{s}}}",
-	},
-];
-
-/**
  * Collection of bangs from DuckDuckGo.
  */
-const duckBangs = [
+export const duckDuckGoBangs = [
 	{
 		c: "Tech",
 		d: "www.01net.com",
@@ -122079,5 +122055,3 @@ const duckBangs = [
 		u: "http://astronet.ge/?s={{{s}}}",
 	},
 ];
-
-export const bangs = [...customBangs, ...duckBangs];
