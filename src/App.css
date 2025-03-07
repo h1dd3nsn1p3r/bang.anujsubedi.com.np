@@ -22,15 +22,19 @@ a:is(:hover, :focus) {
 }
 
 .container {
-	@apply px-6 w-full h-full mx-auto min-h-screen flex flex-col items-center justify-center;
+	@apply sm:px-6 px-3 w-full min-h-screen h-full mx-auto flex flex-col justify-between items-center;
 }
 
 .content-container {
-	@apply w-full max-w-lg flex flex-col gap-6 items-center justify-center text-center;
+	@apply sm:pt-20 pt-10 w-full max-w-[600px] flex flex-col gap-6 items-center justify-center text-center;
+}
+
+.content-container .hero {
+	@apply md:text-lg text-base font-normal;
 }
 
 .url-container {
-	@apply p-4 mt-2 w-full flex flex-row items-center gap-2 bg-white rounded-xl shadow-sm;
+	@apply p-4 mt-4 w-full flex flex-row items-center gap-2 bg-white rounded-xl shadow-sm;
 }
 
 .url-input {
@@ -45,6 +49,38 @@ a:is(:hover, :focus) {
 	@apply size-5 inline-flex items-center justify-center;
 }
 
+.search-engine-container {
+	@apply mt-6 w-full flex flex-col items-center justify-center;
+}
+
+.search-engine-options {
+	@apply mt-6 w-full flex flex-wrap flex-row items-center justify-center gap-4;
+}
+
+.search-engine-options input[type="radio"] {
+	@apply sr-only;
+}
+
+.search-engine-options label {
+	@apply px-4 py-2.5 inline-flex items-center gap-2 cursor-pointer border border-zinc-200 rounded-xl text-zinc-800 text-sm transition duration-300 ease-in;
+}
+
+.search-engine-options input[type="radio"]:checked + label {
+	@apply border-zinc-200 ring-2 ring-blue-500 ring-offset-2;
+}
+
+.search-engine-options label:is(:hover) {
+	@apply border-blue-500;
+}
+
+.search-engine-options label:is(:focus) {
+	@apply outline-0 ring-2 ring-blue-500 ring-offset-2;
+}
+
+.search-engine-options img {
+	@apply size-6 inline-flex leading-0;
+}
+
 .colophon {
-	@apply pt-4 mt-10 w-full fixed bottom-4 text-zinc-600 text-xs text-center border-t border-orange-100;
+	@apply pt-4 pb-3 mt-10 w-full text-zinc-600 text-xs text-center border-t border-orange-100;
 }
