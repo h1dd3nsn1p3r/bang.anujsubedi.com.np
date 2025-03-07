@@ -1,13 +1,17 @@
-import "./global.css";
+import "./App.css";
 import { bangs } from "./bang";
 
 function Home() {
 	const app = document.querySelector<HTMLDivElement>("#app")!;
 	app.innerHTML = `
-    <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100vh;">
+    <div class="container">
       <div class="content-container">
-        <h1>Bang!</h1>
-        <p>DuckDuckGo's bang redirects are slow. Enables all <a href="https://duckduckgo.com/bang.html" target="_blank">DuckDuckGo's bangs</a> with my bang search handler.</p>
+        <a href="https://bang.anujsubedi.com.np" class="logo-link">
+					<img src="/logo.svg" alt="Branding" class="logo" />
+				</a>
+        <p class="hero">
+					DuckDuckGo's bang redirects are slow. Replace <a href="https://duckduckgo.com/bang.html" target="_blank">DuckDuckGo's</a> bangs with my bang handler.
+				</p>
         <div class="url-container"> 
           <input 
             type="text" 
@@ -20,8 +24,8 @@ function Home() {
           </button>
         </div>
       </div>
-      <footer class="footer">
-        <p class="footer-text">
+      <footer class="colophon">
+        <p class="colophon-text">
           With 🤎 by <a href="https://anujsubedi.com.np" target="_blank">Anuj Subedi</a>
         </p>
       </footer>
