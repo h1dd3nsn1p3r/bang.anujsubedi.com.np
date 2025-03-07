@@ -8,7 +8,7 @@ export const customBangs = [
 		r: 0,
 		s: "Grok",
 		sc: "Grok",
-		t: "aig",
+		t: "llmg",
 		u: "https://grok.com/?q={{{s}}}",
 	},
 	{
@@ -17,7 +17,7 @@ export const customBangs = [
 		r: 0,
 		s: "ChatGPT",
 		sc: "ChatGPT",
-		t: "aic",
+		t: "llmc",
 		u: "https://chatgpt.com/?q={{{s}}}",
 	},
 	{
@@ -26,7 +26,7 @@ export const customBangs = [
 		r: 0,
 		s: "NepseAlpha",
 		sc: "NepseAlpha (Nepal)",
-		t: "nepsealpha",
+		t: "nepseal",
 		u: "https://nepsealpha.com/search?q={{{s}}}",
 	},
 ];
