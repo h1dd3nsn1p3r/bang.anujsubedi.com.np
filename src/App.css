@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+@theme {
+	--font-sans: "DM Sans", "sans-serif";
+}
+
+html {
+	font-family: var(--font-sans);
+	@apply text-[18px] font-normal text-zinc-800 antialiased;
+}
+
+body {
+	@apply bg-orange-50 h-screen flex flex-col;
+}
+
+a {
+	@apply inline-flex text-blue-500 transition duration-300 ease-in;
+}
+
+a:is(:hover, :focus) {
+	@apply text-blue-700 underline;
+}
+
+.container {
+	@apply px-6 w-full h-full mx-auto min-h-screen flex flex-col items-center justify-center;
+}
+
+.content-container {
+	@apply w-full max-w-lg flex flex-col gap-6 items-center justify-center text-center;
+}
+
+.url-container {
+	@apply p-4 mt-2 w-full flex flex-row items-center gap-2 bg-white rounded-xl shadow-sm;
+}
+
+.url-input {
+	@apply px-4 py-2.5 flex w-full text-zinc-800 text-sm bg-transparent border border-zinc-200 rounded-xl shadow-[rgba(0,0,0,0.05)] focus:outline-none focus:ring-2 focus:ring-blue-500;
+}
+
+.copy-button {
+	@apply p-0 size-8 text-sm text-zinc-600 bg-white border border-transparent rounded-xl transition duration-300 ease-in inline-flex items-center justify-center cursor-pointer hover:bg-zinc-50 focus:outline-none focus:ring-2 focus:ring-blue-500;
+}
+
+.copy-button img {
+	@apply size-5 inline-flex items-center justify-center;
+}
+
+.colophon {
+	@apply pt-4 mt-10 w-full fixed bottom-4 text-zinc-600 text-xs text-center border-t border-orange-100;
+}
