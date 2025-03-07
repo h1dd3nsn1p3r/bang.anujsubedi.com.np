@@ -64,15 +64,15 @@ Close the settings tab and try searching for `!yt adele set fire to the rain`.
 
 The default search engine is Google. If you want to change it to DuckDuckGo, Yahoo or Bing, follow the steps below:
 
-1. Navigate to [https://bang.anujsubedi.com.np/](bang search) homepage.
+1. Navigate to [bang search](https://bang.anujsubedi.com.np) homepage.
 2. Hit `CRTL + SHIFT + I` to open developer tools.
 3. Go to `Application` tab.
 4. Go to `Storage` > `Local Storage`.
 5. Create a new key `default-engine` and set following values.
 
-```
-Google: `g`
-DuckDuckGo: `ddg`
-Yahoo: `y`
-Bing: `b`
+```javascript
+Bing: "b"
+Google: "g"
+Yahoo: "y"
+DuckDuckGo: "ddg"
 ```
