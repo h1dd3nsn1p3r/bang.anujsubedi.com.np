@@ -4,12 +4,21 @@
 const customBangs = [
 	{
 		c: "AI",
-		d: "www.groak.com",
+		d: "www.grok.com",
 		r: 0,
-		s: "Groak",
-		sc: "Groak",
-		t: "ai",
+		s: "Grok",
+		sc: "Grok",
+		t: "aig",
 		u: "https://grok.com/?q={{{s}}}",
+	},
+	{
+		c: "AI",
+		d: "www.chatgpt.com",
+		r: 0,
+		s: "ChatGPT",
+		sc: "ChatGPT",
+		t: "aic",
+		u: "https://chatgpt.com/?q={{{s}}}",
 	},
 ];
 
