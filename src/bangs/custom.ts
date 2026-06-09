@@ -3,6 +3,15 @@
  */
 export const customBangs = [
 	{
+		c: "Anuj_Subedi_Portfolio",
+		d: "https://anujsubedi.com.np",
+		r: 0,
+		s: "Anuj_Subedi_Portfolio",
+		sc: "Anuj_Subedi_Portfolio",
+		t: "me",
+		u: "https://anujsubedi.com.np",
+	},
+	{
 		c: "AI",
 		d: "www.grok.com",
 		r: 0,
